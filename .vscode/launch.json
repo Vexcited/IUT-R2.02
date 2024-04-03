@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "TP1: Exercice 1",
+      "request": "launch",
+      "mainClass": "unilim.info.ihm.tp1.exo1.TestJavaFX",
+      "vmArgs": "--module-path /home/vexcited/.java-sdk-lib/javafx-21/lib --add-modules javafx.controls"
+    },
+    {
+      "type": "java",
+      "name": "TP1: Exercice 2",
+      "request": "launch",
+      "mainClass": "unilim.info.ihm.tp1.exo2.FormInscriptionFX",
+      "vmArgs": "--module-path /home/vexcited/.java-sdk-lib/javafx-21/lib --add-modules javafx.controls"
+    },
+  ]
+}
