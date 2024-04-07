@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TD1: Exercice 2",
+      "request": "launch",
+      "mainClass": "unilim.info.ihm.td1.exo2.LoginAppFX",
+      "vmArgs": "--module-path /home/vexcited/.java-sdk-lib/javafx-21/lib --add-modules javafx.controls"
+    },
+    {
+      "type": "java",
+      "name": "TD2: Exercice 1",
+      "request": "launch",
+      "mainClass": "unilim.info.ihm.td2.exo1.LoginAppFX",
+      "vmArgs": "--module-path /home/vexcited/.java-sdk-lib/javafx-21/lib --add-modules javafx.controls"
+    },
+    {
+      "type": "java",
+      "name": "TD2: Exercice 2",
+      "request": "launch",
+      "mainClass": "unilim.info.ihm.td2.exo2.App",
+      "vmArgs": "--module-path /home/vexcited/.java-sdk-lib/javafx-21/lib --add-modules javafx.controls"
+    },
+    {
+      "type": "java",
       "name": "TP1: Exercice 1",
       "request": "launch",
       "mainClass": "unilim.info.ihm.tp1.exo1.TestJavaFX",
