@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "FormInscriptionFX",
+      "request": "launch",
+      "mainClass": "unilim.info.ihm.tp2.exo2.FormInscriptionFX",
+      "projectName": "IUT-R2.02_8fb97fa"
+    },
+    {
+      "type": "java",
       "name": "TD1: Exercice 2",
       "request": "launch",
       "mainClass": "unilim.info.ihm.td1.exo2.LoginAppFX",
@@ -43,5 +50,19 @@
       "mainClass": "unilim.info.ihm.tp1.exo2.FormInscriptionFX",
       "vmArgs": "--module-path /home/vexcited/.java-sdk-lib/javafx-21/lib --add-modules javafx.controls"
     },
+    {
+      "type": "java",
+      "name": "TP2: Exercice 1",
+      "request": "launch",
+      "mainClass": "unilim.info.ihm.tp2.exo1.FormInscriptionFX",
+      "vmArgs": "--module-path /home/vexcited/.java-sdk-lib/javafx-21/lib --add-modules javafx.controls"
+    },
+    {
+      "type": "java",
+      "name": "TP2: Exercice 2",
+      "request": "launch",
+      "mainClass": "unilim.info.ihm.tp2.exo2.FormInscriptionFX",
+      "vmArgs": "--module-path /home/vexcited/.java-sdk-lib/javafx-21/lib --add-modules javafx.controls"
+    }
   ]
 }
