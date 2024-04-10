@@ -5,5 +5,6 @@
     "/home/vexcited/.java-sdk-lib/javafx-21/lib/**/*.jar"
   ],
 
-  "cSpell.language": "en,fr"
+  "cSpell.language": "en,fr",
+  "java.debug.settings.onBuildFailureProceed": true
 }

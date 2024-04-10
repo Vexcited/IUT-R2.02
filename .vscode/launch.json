@@ -24,6 +24,13 @@
     },
     {
       "type": "java",
+      "name": "TD3",
+      "request": "launch",
+      "mainClass": "unilim.info.ihm.td3.CarteVisiteAppFX",
+      "vmArgs": "--module-path /home/vexcited/.java-sdk-lib/javafx-21/lib --add-modules javafx.controls"
+    },
+    {
+      "type": "java",
       "name": "TP1: Exercice 1",
       "request": "launch",
       "mainClass": "unilim.info.ihm.tp1.exo1.TestJavaFX",
