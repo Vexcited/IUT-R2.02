@@ -179,7 +179,7 @@ public class CarteVisiteAppFX extends Application implements EventHandler<MouseE
   @Override
   public void handle(MouseEvent event) {
     if (event.getSource() == this.btnCréerCarte) {
-      if (tfdSaisieNom.getText().equals("") || tfdSaisiePrenom.getText().equals("") || tfdSaisieEmail.getText().equals("")) {
+      if (tfdSaisieNom.getText().isEmpty() || tfdSaisiePrenom.getText().isEmpty() || tfdSaisieEmail.getText().equals("")) {
         Alert dialog = new Alert(AlertType.ERROR);
         dialog.setTitle("Erreur de saisie");
         // remove error title
