@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane prefHeight="170.0" prefWidth="600.0" stylesheets="@login.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unilim.info.ihm.tp4.controleur.LoginFormController">
+   <top>
+      <Label text="Veuillez saisir vos informations de login" underline="true" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets bottom="16.0" />
+         </padding>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </top>
+   <center>
+      <GridPane vgap="8.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Utilisateur :" />
+            <Label text="Mot de passe :" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Label>
+            <Label text="Application :" GridPane.rowIndex="2" />
+            <TextField fx:id="idUser" GridPane.columnIndex="1" />
+            <PasswordField fx:id="idPwd" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <ComboBox fx:id="idCb" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+         </children>
+         <padding>
+            <Insets left="16.0" right="16.0" />
+         </padding>
+      </GridPane>
+   </center>
+   <right>
+      <Button mnemonicParsing="false" onMouseClicked="#validerSaisies" text="Valider" BorderPane.alignment="CENTER" />
+   </right>
+   <bottom>
+      <Label fx:id="idLibBas" text="Aucun login saisi" BorderPane.alignment="CENTER" />
+   </bottom>
+   <padding>
+      <Insets left="16.0" right="16.0" />
+   </padding>
+</BorderPane>
