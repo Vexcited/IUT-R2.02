@@ -12,4 +12,6 @@ PDFs et autres ressources que l'on a eu l'occasion de consulter pendant le semes
 
 - [1. Notions de base](./CM1%20-%20Notions%20de%20base.pdf)
 - [2. Programmation évènementielle](./CM2%20-%20Programmation%20évènementielle.pdf)
-- [3. Notions avancées](./CM3%20-%20Notions%20avancées.pdf)
+- [3. Notions avancées (première partie)](./CM3%20-%20Notions%20avancées.pdf)
+- [4. Notions avancées (bis)](./CM4%20-%20Notions%20avancées%20(bis).pdf)
+- [5. Notions avancées (ter)](./CM5%20-%20Notions%20avancées%20(ter).pdf)
