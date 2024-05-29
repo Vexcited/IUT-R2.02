@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unilim.info.ihm.tp6.exo2.controller.WarCardGameController">
+   <children>
+      <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="Jeu de Bataille en JavaFX" />
+      <HBox alignment="CENTER" prefHeight="80.0" prefWidth="800.0" spacing="24.0">
+         <children>
+            <Button fx:id="idBtnChanger" mnemonicParsing="false" onAction="#changer" text="Changer" />
+            <Button fx:id="idBtnQuitter" mnemonicParsing="false" onAction="#quitter" text="Quitter" />
+         </children>
+      </HBox>
+      <Pane fx:id="idCardToBeat" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </Pane>
+      <HBox fx:id="idDeck" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="8.0">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="10.0" />
+         </padding></HBox>
+   </children>
+</VBox>
